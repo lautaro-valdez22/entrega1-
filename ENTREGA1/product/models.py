@@ -23,4 +23,3 @@ class Televisores(models.Model):
     SKU = models.CharField(max_length=30, unique=True)
     active = models.BooleanField(default=True)
     
-    Prueba
